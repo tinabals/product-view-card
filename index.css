@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Fraunces', serif;
+    background-color: antiquewhite;
+   
+}
+
+.container{
+    display:flex;
+    width:720px;
+    margin:50px auto;
+    justify-content: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.product-info{
+    padding: 10px 0;
+}
+.text{
+    background-color: #ffffff;
+    padding:0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width:290px;
+    border-top-right-radius: 9px ;
+    border-bottom-right-radius: 9px;
+
+}
+.product-type{
+  font-weight: 400;  
+}
+
+.product-image{
+    width:360px;
+    border-top-left-radius: 9px ;
+    border-bottom-left-radius: 9px;
+
+}
+
+.product-name{
+    line-height: 32px;
+    font-size:32px;
+    font-weight: 700;
+    color:#1C232B;
+}
+.product-description, .old-price, .product-type{
+    color: #6C7289;
+}
+
+.product-description{
+   font-family: 'Montserrat', sans-serif;
+   font-size:14px;
+
+
+}
+
+.block{
+    display: block;
+}
+
+.price{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.current-price{
+    color:#3D8168;
+    font-size:42px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.old-price{
+    text-decoration: line-through;
+    font-size:13px;
+    line-height: 23px;
+}
+
+.button{
+    display:flex;
+    gap:6px;
+    justify-content: center;
+    width:70%;
+    background:#3D8168;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-weight:900;
+    font-size:14px;
+
+}
+.button button{
+    color:white;
+    background-color: #3D8168;
+    border:none;
+    font-weight: bold;
+    font-size:14px;
+    cursor:pointer;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
